@@ -1,0 +1,32 @@
+{
+  "name": "yl-cache",
+  "version": "1.0.0",
+  "description": "A simple k-v cache for front end.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri2peter/yl-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "localStorage",
+    "k-v",
+    "data",
+    "expire"
+  ],
+  "author": "yuri2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuri2peter/yl-cache/issues"
+  },
+  "homepage": "https://github.com/yuri2peter/yl-cache#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
